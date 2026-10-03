@@ -1,5 +1,5 @@
 # Spotify Worldwide Trends: Music of the Spheres World Tour Edition
-
+https://chocbox2.github.io/mots-tour-impact/ <br>
 Portfolio version of the Spotify Worldwide Trends: Music of the Spheres World Tour Edition article. <br>
 Originaly developed in March 2026. <br>
 Data Sources:<br>
