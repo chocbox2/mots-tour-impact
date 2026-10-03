@@ -1,0 +1,377 @@
+:root {
+  --viz-border: #dee2e6;
+  --viz-surface: #ffffff;
+  --viz-surface-muted: #f8f9fa;
+  --viz-axis: #9ca3af;
+  --viz-grid: #e9ecef;
+  --viz-text-muted: #6c757d;
+  --viz-primary: #0d6efd;
+  --viz-secondary: #6c757d;
+  --viz-emphasis: #fd7e14;
+  --viz-danger: #dc3545;
+}
+
+body {
+  background: #f8fafc;
+}
+
+.center {
+  display: block;
+  margin: auto
+}
+
+.content-wrap {
+  max-width: 760px;
+}
+
+.interactive-wide {
+  width: min(1120px, calc(100vw - 2rem));
+  margin-left: 50%;
+  transform: translateX(-50%);
+  overflow-x: auto;
+}
+
+.chart-wrap,
+.control-panel,
+.approx-panel,
+.infinite-panel,
+.approx-plot-wrap,
+.infinite-chart-wrap,
+.nn-plot-wrap,
+.cad-canvas-wrap {
+  border: 1px solid var(--viz-border);
+  border-radius: 0.75rem;
+  background: var(--viz-surface);
+}
+
+.control-panel,
+.approx-panel,
+.infinite-panel {
+  background: var(--viz-surface-muted);
+}
+
+.basis-line {
+  opacity: 0.45;
+  stroke-width: 2;
+  fill: none;
+}
+
+.target-line,
+.runge-target-line,
+.spline-target-line,
+.infinite-exact-line,
+.nn-target-line {
+  stroke: var(--viz-secondary);
+  fill: none;
+}
+
+.target-line,
+.poly-line,
+.runge-poly-line,
+.spline-main-line {
+  stroke-width: 2.8;
+}
+
+.poly-line,
+.runge-poly-line,
+.spline-main-line,
+.approx-poly-line,
+.infinite-cubic-line,
+.nn-approx-line {
+  stroke: var(--viz-primary);
+  fill: none;
+}
+
+.axis-label {
+  font-size: 0.875rem;
+  fill: var(--viz-text-muted);
+}
+
+.coefficient-row label {
+  min-width: 2.3rem;
+}
+
+.approx-axis path,
+.approx-axis line,
+.runge-axis path,
+.runge-axis line,
+.spline-axis path,
+.spline-axis line,
+.infinite-axis path,
+.infinite-axis line,
+.nn-axis path,
+.nn-axis line {
+  stroke: var(--viz-axis);
+}
+
+.approx-axis text,
+.runge-axis text,
+.spline-axis text,
+.infinite-axis text,
+.nn-axis text {
+  fill: #4b5563;
+  font-size: 0.8rem;
+}
+
+.approx-grid line,
+.spline-grid line,
+.infinite-grid line,
+.nn-grid line {
+  stroke: var(--viz-grid);
+}
+
+.approx-target-line {
+  stroke: #212529;
+  stroke-width: 2.8;
+  fill: none;
+}
+
+.approx-error-line,
+.spline-error-line,
+.infinite-curvature-approx {
+  stroke: var(--viz-emphasis);
+  stroke-width: 2.2;
+  fill: none;
+}
+
+.approx-zero-line,
+.spline-curvature-target,
+.infinite-curvature-exact,
+.infinite-self-sim-line {
+  stroke: var(--viz-secondary);
+  fill: none;
+  stroke-dasharray: 4 3;
+}
+
+.max-error-point,
+.spline-knot,
+.runge-node {
+  fill: var(--viz-danger);
+  stroke: #ffffff;
+  stroke-width: 1.2;
+}
+
+.runge-edge-band {
+  fill: #f8d7da;
+  opacity: 0.35;
+}
+
+.runge-equation,
+.infinite-math {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.runge-osc-note {
+  color: #b02a37;
+}
+
+.spline-support-band {
+  fill: #d1e7dd;
+  opacity: 0.45;
+}
+
+.infinite-poly-line,
+.infinite-error-line {
+  stroke: #6f42c1;
+  stroke-width: 2.2;
+  fill: none;
+}
+
+.infinite-heat-cell {
+  stroke: none;
+}
+
+.cad-canvas-wrap {
+  height: 420px;
+  overflow: hidden;
+}
+
+.cad-canvas-wrap canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cad-badge {
+  font-size: 0.82rem;
+  background: #cfe2ff;
+  color: #084298;
+}
+
+#cad-tess-slider:disabled {
+  opacity: 1;
+}
+
+#cad-tess-slider:disabled::-webkit-slider-runnable-track,
+#cad-tess-slider:disabled::-moz-range-track {
+  background-color: var(--viz-border);
+}
+
+#cad-tess-slider:disabled::-webkit-slider-thumb,
+#cad-tess-slider:disabled::-moz-range-thumb {
+  background-color: var(--viz-border);
+  border-color: var(--viz-border);
+}
+
+.nn-basis-line {
+  stroke: #6c757d;
+  stroke-width: 1.4;
+  fill: none;
+  opacity: 0.45;
+}
+
+/* .nn-plot-wrap {
+  padding: 0;
+} */
+
+#nn-main-chart {
+  display: block;
+  width: 100%;
+  height: 320px;
+}
+
+.finite-spaces-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.approximation-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.runge-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.runge-controls {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.runge-layout > .chart-wrap {
+  min-width: 0;
+}
+
+.splines-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.splines-controls,
+.splines-visuals {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.splines-layout > .splines-visuals {
+  min-width: 0;
+}
+
+.infinite-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.infinite-controls,
+.infinite-visuals {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.infinite-layout > .infinite-visuals {
+  min-width: 0;
+}
+
+.aliasing-layout {
+  width: 100%;
+  min-width: 920px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.aliasing-controls {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.aliasing-layout > .chart-wrap {
+  min-width: 0;
+}
+
+.aliasing-true-line {
+  stroke: var(--viz-secondary);
+  stroke-width: 2.8;
+  fill: none;
+}
+
+.aliasing-alias-line {
+  stroke: var(--viz-emphasis);
+  stroke-width: 2.2;
+  fill: none;
+}
+
+.aliasing-sample-dot {
+  fill: var(--viz-danger);
+  stroke: #ffffff;
+  stroke-width: 1.2;
+}
+
+.aliasing-axis path,
+.aliasing-axis line {
+  stroke: var(--viz-axis);
+}
+
+.aliasing-axis text {
+  fill: #4b5563;
+  font-size: 0.8rem;
+}
+
+.aliasing-grid line {
+  stroke: var(--viz-grid);
+}
+
+.finite-math {
+  grid-column: 1 / -1;
+  border: 1px solid var(--viz-border);
+  border-radius: 0.75rem;
+  background: var(--viz-surface-muted);
+  font-size: 1.02rem;
+  text-align: center;
+}
+
+.finite-math em {
+  font-style: italic;
+}
+
+.finite-math .katex-display {
+  margin: 0;
+}

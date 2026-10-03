@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music of the Spheres World Tour Map</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    
+  </head>
+  <body>
+    
+    <main class="container py-1">
+      <article class="mx-auto content-wrap">
+        <h1 class="text-center mb-4 fw-semibold">
+          Spotify Worldwide Trends: Music of the Spheres World Tour Edition
+        </h1>
+        <p class="lead text-center mb-4">March 16, 2026</p>
+         <img src="images/poster.png" width="350", height="350", class="center"> <br>
+        <p class="lead">
+          <a href="https://charts.spotify.com/home"> Spotify Charts</a>, launched in 2017, reflect the music consumption trends
+          worldwide on the platform. Every day, the top 200 most streamed songs worldwide are published, 
+          along with the top 200 streamed songs in 72 select regions.<br><br>
+          The Music of the Spheres World tour is the  <a href="https://en.wikipedia.org/wiki/Music_of_the_Spheres_World_Tour">
+            most attended concert tour of all time</a>, selling over 13 million tickets
+          across 223 shows, while also additionally stopping at the Rock and Rio Festival in Brazil, 
+          and Glastonbury Festival in the United Kingdom, and is expected to continue in 2027. 
+        </p>
+        </article>
+        <!-- Tour Map -->
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <b>Mapping the Tour</b></p>
+        <p class="lead">
+          The tour took place through 80 different cities across 41 different regions. 
+          Play or scroll through a chronological timeline of the tour. Hover over points on the chart to see data. <br> <br>
+          The charts to the right show the songs by Coldplay on the Daily Top Songs chart for 
+         the region, ranging from one week before to one week after the tour date.
+         For example, the San Jose, Costa Rica stop shows the Daily Top Songs Costa Rica chart.
+          Revenue and attendance numbers are totalled for all consecutive stops of one city. 
+          The stops on 9/10/22 and 6/29/24 stops were festival stops, so no attendance/revenue is reported <br>
+          
+        </p>
+        </article>
+         
+        <div id="tour-map-slider" style="width: 100%;margin:auto"></div>
+        <div style="display: flex; justify-content: center; gap: 5px; width: 100%"> 
+          <div id="tour-map-container" style="flex: 1;text-align: center"></div>
+          <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+              <div id="tour-stream-graph-container" style="flex: 1;text-align: center"></div>
+              <div id="tour-placement-graph-container" style="flex: 1;text-align: center"></div>
+          </div>
+          <div id="album-legend" style="flex: 0.40"></div>
+        </div>
+        <article class="mx-auto content-wrap">
+          <p class="lead">
+            In particular, the tour stops in smaller regions tend to have the most impact on the charts for the region, 
+            in terms of quantity of songs charting, as since the population is smaller in these regions, a large event in a 
+            smaller region brings a higher proportion of the population together, allowing for more chart impact. <br><br>
+             It is also interesting to note the differences in the top songs based on the region. For example, the Rome, Italy
+             stop has Viva La Vida as the top song with a chart placement difference compared to the next top song, Yellow. However, 
+             throughout the stops in Bocaue, Phillipines, Yellow emerges as the top song, eventually doubling the streams of the second
+             highest song in the region, Viva La Vida. As Coldplay experiments with different sounds throughout their career,
+             different regions may prefer different types of songs. <br><br>
+        </p>
+        </article>
+        
+        <!--Song Stream Map -->
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <b> Mapping Individual Songs</b></p>
+        <p class="lead">
+          Now, use the regional maps below to gain insight into the patterns of what regions stream certain songs the most. 
+          Pause the animation as desired, and hover over regions to see the exact streams for the song in the given region. 
+          The songs available are all songs that charted in the top 200 of a region on some day, sorted by most popular songs on top. 
+          <br><br>
+          Regions where spotify is not available in are colored dark gray, representing that it is impossible to chart in that region.
+          Regions where spotify is available but the song is not in the top 200 songs for that day are colored light gray, representing
+          the limitations of Spotify's Daily Charts, if the song is not in the top 200, we do not know the regional streams of the song.
+        </p>
+        </article>
+          <p class ="lead text-center">
+        <b> Stream Map</b></p>
+       <div style="display: flex; justify-content: center; gap: 5px; width: 100%"> 
+            Song: <div id="stream-map-selection"style="flex: 1;text-align: center"></div>
+            Playback Speed: <div id="stream-speed-selector"style="flex: 0.2;text-align: center"></div>
+        </div>
+        <div id="stream-map-slider" style="width: 100%;margin:auto"></div>
+        <div id="stream-map-container" style="text-align: center"></div>
+        
+         <!--Song Placement Map -->
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <br><b> Placement Map</b></p>
+        <p class="lead">Songs streams tell us the story of which countries contribute the most to a song's overall streaming numbers, but 
+          does not tell us the relative strength of the song within the country. Streams naturally will be significantly higher in the
+          USA compared to smaller countries in population such as Norway. Mapping the songs by placement allows us to see relative success
+          of the songs, seeing which regions the song was succesful in the most relative to other songs in the region.  For example, a song having a rank of 6 in Norway means that
+          the song was the 6th most popular song in Norway on the day. 
+        </p>
+        </article>
+        <div style="display: flex; justify-content: center; gap: 5px; width: 100%"> 
+            Song: <div id="placement-map-selection"style="flex: 1;text-align: center"></div>
+            Playback Speed: <div id="placement-speed-selector"style="flex: 0.2;text-align: center"></div>
+        </div>
+        <div id="placement-map-slider" style="width: 100%;margin:auto"></div>
+        <div id="placement-map-container" style="text-align: center"></div>
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        
+        <p class="lead">Some interesting insights from the maps above are observing the impact of viral performances at the concert. 
+          The performances at the concert get shared on social media platforms such as Instagram or TikTok. While the performances of 
+          all their most popular songs get shared, the impact is most notable for songs that were not major hits before the tour. 'Sparks'
+          was a deep cut from their debut album, released in 2000. However, the song started to see minor viral hype starting in late 2022,
+          resulting in the song being added to the setlist of the tour, allowing for the song to slowly gain and enter new countries charts
+          over time. It exploded in popularity in June 2025 after a performance of Chris Martin singing the song with extra heartfelt emotion blew up.
+          <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@igo2concert/video/7511443251312725278" data-video-id="7511443251312725278" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@igo2concert" href="https://www.tiktok.com/@igo2concert?refer=embed">@igo2concert</a> I could cry a million tears  <a title="coldplay" target="_blank" href="https://www.tiktok.com/tag/coldplay?refer=embed">#coldplay</a> <a title="musicofthespheresworldtour" target="_blank" href="https://www.tiktok.com/tag/musicofthespheresworldtour?refer=embed">#musicofthespheresworldtour</a> <a title="chrismartin" target="_blank" href="https://www.tiktok.com/tag/chrismartin?refer=embed">#chrismartin</a> <a title="sparks" target="_blank" href="https://www.tiktok.com/tag/sparks?refer=embed">#sparks</a> <a title="heaven" target="_blank" href="https://www.tiktok.com/tag/heaven?refer=embed">#heaven</a> <a target="_blank" title="♬ original sound - igo2concert" href="https://www.tiktok.com/music/original-sound-7511443231835310879?refer=embed">♬ original sound - igo2concert</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        </p>
+        </article>
+         <!--Song Count Map -->
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <br> <b> Map of # of songs per country</b></p>
+        <p class="lead">Which countries chart the most songs on their charts? Instead of mapping singular songs, now we map 
+          by count to see overall relative success of Coldplay's discography per region. The count is simply the number of songs
+          in the top 200 of the Daily Top Songs for the region.
+        </p>
+        </article>
+        Playback Speed: <div id="count-speed-selector"style="flex: 0.2;text-align: center"></div>
+        <div id="count-map-slider" style="width: 100%;margin:auto"></div>
+        <div id="count-map-container" style="text-align: center"></div>
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <p class="lead">
+          A particular fascinating case to see here is the impact of the tour on the numbers through many different events. 
+          The viral 'Sparks' moment around June 2025, along with the infamous 'Coldplay CEO' on the Jumbotron in July 2025 boosted the song charting numbers
+          especially in the United States, charting over 5 songs at once for the first time. Even after the 2025 USA leg of
+          the tour finished in July, they were able to consistently chart 3-4 songs throughout August as a result of the 
+          aftermath of the virality of the event. 
+        </p>
+        </article>
+        <!-- Global Stream Graph Map-->
+        <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <b> Global Streaming Patterns</b></p>
+        <p class="lead">While the previous visualizations focused more on regional success of the discography, viewing worldwide
+          performance is also interesting in seeing trends for the songs. Below, we can visualize the total global
+          performance of the song on the Top Global Daily Songs chart.  <br><br>
+          The graph below can be zoomed in by scrolling and panned by clicking and moving the mouse. <br>
+          Change the display of the graph to switch from viewing streams to chart placement <br>
+          Hover over a point on the graph to view streaming distribution by region of the given song on the given day. <br>
+        </p>
+        </article>
+        Display:
+        <select id="field-switch">
+          <option value="streams">Streams</option>
+          <option value="placement">Placement</option>
+        </select>
+        <div style="display: flex; justify-content: center; gap: 5px; width: 100%"> 
+        <div id="global-stream-graph" style="flex: 1;text-align: center"></div>
+          <div style="flex: 0.4; display: flex; flex-direction: column; gap: 20px;">
+            <div id="global-stream-legend" style="flex: 0.4;text-align: top"></div>
+            <div id="donut-graph" style="flex: 0.7;text-align: center"></div>
+          </div>
+        </div>
+        </article>
+         <article class="mx-auto content-wrap">
+        <p class ="lead text-center">
+        <p class="lead">
+          The global distribution graph allows us to see patterns in worldwide performance, before, during, and after the tour's impact. 
+          Some interesting patterns to note is the patterns of songs. Songs that they released recently have more regular chart performance,
+          more similar to popular current hits. This is most seen by highlighting over the runs for 'Something Just Like This', released in
+          2017, and 'My Universe', a collaboration with BTS released in 2021, where the songs started higher and slowly fall over time, like
+          a more typical popular hit. 'Christmas Lights' performs like a holiday hit does, rises sharply in December and falls 
+          as the holiday season comes to an end. Their older songs meanwhile needed time to build up popularity as the tour started bringing them back
+          to the charts. <br><br>
+          The donut graph allows one to see distribution of a song's streams across available spotify regions.
+           For example, the song 'Sparks' tends to perform relatively better in the US, with around 25% of it's streams coming from the
+           US daily, while 'My Universe' has a huge range of countries with less US emphasis, especially helped by the BTS feature. Songs
+           like A Sky Full of Stars, an electronic dance music song, is seen as most popular outside the US.  In the distribution, it is 
+           often seen under "other" streams as unfortunately spotify only provides data for the top 200 streamed songs per region individually.
+        </p>
+
+        </article>
+      </div>
+       <article class="mx-auto content-wrap">
+        <p class="lead text-center mb-4">Data Sources</p>
+        <a href="https://charts.spotify.com/home">Spotify Charts</a> <br>
+        <a href="https://en.wikipedia.org/wiki/Music_of_the_Spheres_World_Tour">Wikipedia- Music of the Spheres World Tour- Tour Dates</a> <br>
+        <a href="https://github.com/zonicdoe/ISO-3166-Country-codes">ISO Country Codes Dictionary</a> <br>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    
+    <script>
+      const interactionScripts = [
+        "js/legend.js",
+        "js/scrubber.js",
+        "js/main_data.js",
+        "js/song_map.js",
+        "js/tour_map.js",
+        "js/global_streams.js"
+      ];
+
+      async function loadComponents() {
+        while (true) {
+          const slots = Array.from(
+            document.querySelectorAll("[data-component]:not([data-loaded])"),
+          );
+          if (slots.length === 0) return;
+
+          await Promise.all(
+            slots.map(async (slot) => {
+              const url = slot.getAttribute("data-component");
+              if (!url) {
+                slot.setAttribute("data-loaded", "true");
+                return;
+              }
+
+              const response = await fetch(url);
+              if (!response.ok) {
+                throw new Error(`Failed to load component: ${url}`);
+              }
+
+              slot.innerHTML = await response.text();
+              slot.setAttribute("data-loaded", "true");
+            }),
+          );
+        }
+      }
+
+      function loadScript(src) {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = src;
+          script.onload = resolve;
+          script.onerror = () =>
+            reject(new Error(`Failed to load script: ${src}`));
+          document.body.appendChild(script);
+        });
+      }
+
+      async function bootstrapPage() {
+        await loadComponents();
+        for (const src of interactionScripts) {
+          await loadScript(src);
+        }
+      }
+
+      bootstrapPage().catch((error) => {
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>

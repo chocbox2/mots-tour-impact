@@ -1,0 +1,728 @@
+{
+    "Hymn for the Weekend - Seeb Remix": {
+        "credits": "Coldplay, Seeb",
+        "streams": 698872672,
+        "album": "A Head Full of Dreams Tour Edition",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e0254776f4d6b5275b4732af97d"
+    },
+    "Hymn for the Weekend": {
+        "credits": "Coldplay",
+        "streams": 1899503244,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "The Scientist": {
+        "credits": "Coldplay",
+        "streams": 2780122644,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "Everglow - Edit": {
+        "credits": "Coldplay",
+        "streams": 145620624,
+        "album": "Everglow",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028653165f66ef2e8ebd693f93"
+    },
+    "Adventure of a Lifetime": {
+        "credits": "Coldplay",
+        "streams": 1520953921,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Fix You": {
+        "credits": "Coldplay",
+        "streams": 2065236296,
+        "album": "X&Y",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024e0362c225863f6ae2432651"
+    },
+    "Yellow": {
+        "credits": "Coldplay",
+        "streams": 3640001198,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "Up&Up": {
+        "credits": "Coldplay",
+        "streams": 308964537,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Everglow": {
+        "credits": "Coldplay",
+        "streams": 370625931,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "A Sky Full of Stars": {
+        "credits": "Coldplay",
+        "streams": 2281377035,
+        "album": "Ghost Stories",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf"
+    },
+    "A Head Full of Dreams": {
+        "credits": "Coldplay",
+        "streams": 238311551,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Viva La Vida": {
+        "credits": "Coldplay",
+        "streams": 3229273449,
+        "album": "Viva La Vida or Death and All His Friends",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e"
+    },
+    "Us Against the World": {
+        "credits": "Coldplay",
+        "streams": 79349613,
+        "album": "Mylo Xyloto",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e62096e4daf8cd0d29fda48"
+    },
+    "Something Just Like This": {
+        "credits": "The Chainsmokers, Coldplay",
+        "streams": 3550969793,
+        "album": "Memories...Do Not Open",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e020c13d3d5a503c84fcc60ae94"
+    },
+    "Hypnotised": {
+        "credits": "Coldplay",
+        "streams": 33354255,
+        "album": "Hypnotised",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02aa55c51dd3d5332fed519eb6"
+    },
+    "Paradise": {
+        "credits": "Coldplay",
+        "streams": 1819938126,
+        "album": "Mylo Xyloto",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e62096e4daf8cd0d29fda48"
+    },
+    "Birds": {
+        "credits": "Coldplay",
+        "streams": 149621566,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Magic": {
+        "credits": "Coldplay",
+        "streams": 799890074,
+        "album": "Ghost Stories",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf"
+    },
+    "Amazing Day": {
+        "credits": "Coldplay",
+        "streams": 99961290,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Every Teardrop Is a Waterfall": {
+        "credits": "Coldplay",
+        "streams": 387405123,
+        "album": "Mylo Xyloto",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e62096e4daf8cd0d29fda48"
+    },
+    "Clocks": {
+        "credits": "Coldplay",
+        "streams": 1458210583,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "Fun (feat. Tove Lo)": {
+        "credits": "Coldplay",
+        "streams": 114426341,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Charlie Brown": {
+        "credits": "Coldplay",
+        "streams": 308248591,
+        "album": "Mylo Xyloto",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e62096e4daf8cd0d29fda48"
+    },
+    "In My Place": {
+        "credits": "Coldplay",
+        "streams": 491185021,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "Midnight": {
+        "credits": "Coldplay",
+        "streams": 167794612,
+        "album": "Ghost Stories",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf"
+    },
+    "Kaleidoscope": {
+        "credits": "Coldplay",
+        "streams": 55216379,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Viva La Vida - Live from Spotify London": {
+        "credits": "Coldplay",
+        "streams": 103931553,
+        "album": "Live from Spotify London",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02df92aae8613a060788c222e6"
+    },
+    "Army of One": {
+        "credits": "Coldplay",
+        "streams": 88766833,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "A Sky Full of Stars - Live at the Royal Albert Hall, London": {
+        "credits": "Coldplay",
+        "streams": 63580883,
+        "album": "Ghost Stories Live 2014",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e17c11c195f80da123e17dde"
+    },
+    "Everglow - Live from Spotify London": {
+        "credits": "Coldplay",
+        "streams": 67033144,
+        "album": "Live from Spotify London",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02df92aae8613a060788c222e6"
+    },
+    "Always in My Head": {
+        "credits": "Coldplay",
+        "streams": 170811684,
+        "album": "Ghost Stories",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf"
+    },
+    "Yellow - Live from Spotify London": {
+        "credits": "Coldplay",
+        "streams": 65330002,
+        "album": "Live from Spotify London",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02df92aae8613a060788c222e6"
+    },
+    "Adventure of a Lifetime - Live from Spotify London": {
+        "credits": "Coldplay",
+        "streams": 66790280,
+        "album": "Live from Spotify London",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02df92aae8613a060788c222e6"
+    },
+    "Princess of China": {
+        "credits": "Coldplay, Rihanna",
+        "streams": 341558499,
+        "album": "Mylo Xyloto",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e62096e4daf8cd0d29fda48"
+    },
+    "Trouble": {
+        "credits": "Coldplay",
+        "streams": 485915506,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "Colour Spectrum": {
+        "credits": "Coldplay",
+        "streams": 47918056,
+        "album": "A Head Full of Dreams",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+    },
+    "Speed of Sound": {
+        "credits": "Coldplay",
+        "streams": 397755622,
+        "album": "X&Y",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024e0362c225863f6ae2432651"
+    },
+    "Christmas Lights - Live from Spotify London": {
+        "credits": "Coldplay",
+        "streams": 38803224,
+        "album": "Live from Spotify London",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02df92aae8613a060788c222e6"
+    },
+    "Violet Hill": {
+        "credits": "Coldplay",
+        "streams": 228761212,
+        "album": "Viva La Vida or Death and All His Friends",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e"
+    },
+    "Shiver": {
+        "credits": "Coldplay",
+        "streams": 215013389,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "God Put a Smile upon Your Face": {
+        "credits": "Coldplay",
+        "streams": 140954716,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "A Message": {
+        "credits": "Coldplay",
+        "streams": 118604509,
+        "album": "X&Y",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024e0362c225863f6ae2432651"
+    },
+    "Ink": {
+        "credits": "Coldplay",
+        "streams": 127016559,
+        "album": "Ghost Stories",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf"
+    },
+    "Politik": {
+        "credits": "Coldplay",
+        "streams": 112305461,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "High Speed": {
+        "credits": "Coldplay",
+        "streams": 111447317,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "See You Soon": {
+        "credits": "Coldplay",
+        "streams": 86384640,
+        "album": "The Blue Room",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02124a7215716375bcff8d6ecd"
+    },
+    "A Whisper": {
+        "credits": "Coldplay",
+        "streams": 59251964,
+        "album": "A Rush of Blood to the Head",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+    },
+    "Don't Panic": {
+        "credits": "Coldplay",
+        "streams": 283319056,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "Something Just Like This - Alesso Remix": {
+        "credits": "The Chainsmokers, Coldplay, Alesso",
+        "streams": 65224044,
+        "album": "Something Just Like This (Remixes)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e025587a362ba77bb84db1d02b8"
+    },
+    "Something Just Like This - Dimitri Vegas & Like Mike Remix": {
+        "credits": "The Chainsmokers, Coldplay, Dimitri Vegas & Like Mike",
+        "streams": 14195229,
+        "album": "Something Just Like This (Remixes)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e025587a362ba77bb84db1d02b8"
+    },
+    "All I Can Think About Is You": {
+        "credits": "Coldplay",
+        "streams": 72775147,
+        "album": "All I Can Think About Is You",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02b31418238bf998b3a11da89a"
+    },
+    "Something Just Like This - Tokyo Remix": {
+        "credits": "Coldplay, The Chainsmokers",
+        "streams": 41240333,
+        "album": "Something Just Like This (Tokyo Remix)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02ad8a1115cf43f3ca4617226e"
+    },
+    "A L I E N S": {
+        "credits": "Coldplay",
+        "streams": 43747126,
+        "album": "A L I E N S",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02b187bfb610b958e470cb21ec"
+    },
+    "Miracles (Someone Special)": {
+        "credits": "Coldplay, Big Sean",
+        "streams": 118560753,
+        "album": "Kaleidoscope EP",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e7da341ab1f16253e0d5f70e"
+    },
+    "Hypnotised - EP Mix": {
+        "credits": "Coldplay",
+        "streams": 53009386,
+        "album": "Kaleidoscope EP",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e7da341ab1f16253e0d5f70e"
+    },
+    "Christmas Lights": {
+        "credits": "Coldplay",
+        "streams": 419040787,
+        "album": "Christmas Lights",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e025f30d36db3dd22681531d1da"
+    },
+    "2000 Miles": {
+        "credits": "Coldplay",
+        "streams": 4458222,
+        "album": "2000 Miles",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02220adaed034222cf569cc3b3"
+    },
+    "Have Yourself a Merry Little Christmas - Jo Whiley, BBC Radio 1 Session": {
+        "credits": "Coldplay",
+        "streams": 14246956,
+        "album": "Have Yourself a Merry Little Christmas (Jo Whiley, BBC Radio 1 Session)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e0261667aa6a9ee423097fc9870"
+    },
+    "Clocks - Radio Edit": {
+        "credits": "Coldplay",
+        "streams": 5950105,
+        "album": "Clocks",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02052f5906376bd0ee30d9ebbd"
+    },
+    "Orphans": {
+        "credits": "Coldplay",
+        "streams": 273364687,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Arabesque": {
+        "credits": "Coldplay",
+        "streams": 69252587,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Everyday Life": {
+        "credits": "Coldplay",
+        "streams": 153205593,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Champion Of The World": {
+        "credits": "Coldplay",
+        "streams": 81208913,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Daddy": {
+        "credits": "Coldplay",
+        "streams": 71382370,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Church": {
+        "credits": "Coldplay",
+        "streams": 36073325,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Trouble In Town": {
+        "credits": "Coldplay",
+        "streams": 36170634,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "BrokEn": {
+        "credits": "Coldplay",
+        "streams": 22884147,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Sunrise": {
+        "credits": "Coldplay",
+        "streams": 52329485,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "WOTW / POTP": {
+        "credits": "Coldplay",
+        "streams": 17530097,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "When I Need A Friend": {
+        "credits": "Coldplay",
+        "streams": 27469931,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02722d16eb3b31fae9cb1d2ada"
+    },
+    "Flags": {
+        "credits": "Coldplay",
+        "streams": 64225064,
+        "album": "Everyday Life",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02a72231cca048e3fceed630e3"
+    },
+    "Higher Power": {
+        "credits": "Coldplay",
+        "streams": 449553730,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "Higher Power - Tiësto Remix": {
+        "credits": "Coldplay, Tiësto",
+        "streams": 17923323,
+        "album": "Higher Power (Tiësto Remix)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d03de263a7e4554713b9a77f"
+    },
+    "Coloratura": {
+        "credits": "Coldplay",
+        "streams": 80018599,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "My Universe": {
+        "credits": "Coldplay, BTS",
+        "streams": 1577452382,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "My Universe - Instrumental": {
+        "credits": "Coldplay, BTS",
+        "streams": 10310450,
+        "album": "My Universe",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02526301de441246800ca739a5"
+    },
+    "My Universe - Acoustic Version": {
+        "credits": "Coldplay, BTS",
+        "streams": 30824588,
+        "album": "My Universe",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024a123afb79f555cff3f9ef3f"
+    },
+    "My Universe - Supernova 7 Mix": {
+        "credits": "Coldplay, BTS",
+        "streams": 12401866,
+        "album": "My Universe",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024a123afb79f555cff3f9ef3f"
+    },
+    "Let Somebody Go": {
+        "credits": "Coldplay, Selena Gomez",
+        "streams": 297129171,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "Humankind": {
+        "credits": "Coldplay",
+        "streams": 58996382,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "People of The Pride": {
+        "credits": "Coldplay",
+        "streams": 52099711,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "❤️": {
+        "credits": "Coldplay, We Are KING, Jacob Collier",
+        "streams": 45925653,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "🪐": {
+        "credits": "Coldplay",
+        "streams": 25352349,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "✨": {
+        "credits": "Coldplay",
+        "streams": 19562147,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "Biutyful": {
+        "credits": "Coldplay",
+        "streams": 95943715,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "♾": {
+        "credits": "Coldplay",
+        "streams": 28358368,
+        "album": "Music Of The Spheres",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d5d34557fa33c03782d3e730"
+    },
+    "My Universe - SUGA's Remix": {
+        "credits": "Coldplay, BTS, SUGA",
+        "streams": 45298776,
+        "album": "My Universe (SUGA's Remix)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e022e5d6977d51a65c8ecd6e8e0"
+    },
+    "My Universe - David Guetta Remix": {
+        "credits": "Coldplay, BTS, David Guetta",
+        "streams": 20272622,
+        "album": "My Universe (David Guetta Remix)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02810efa8cf74c5ff63e3bfe59"
+    },
+    "Sparks": {
+        "credits": "Coldplay",
+        "streams": 1968519574,
+        "album": "Parachutes",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a"
+    },
+    "Day ‘n’ Nite - Spotify Singles": {
+        "credits": "Coldplay",
+        "streams": 9099884,
+        "album": "Spotify Singles",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e021a0347ff14213e6ad2c4b0ff"
+    },
+    "Let Somebody Go - Single Version": {
+        "credits": "Coldplay, Selena Gomez",
+        "streams": 8735842,
+        "album": "Let Somebody Go",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02a96942a8f1d8aa8c688cd01f"
+    },
+    "Let Somebody Go - Kygo Remix": {
+        "credits": "Coldplay, Selena Gomez, Kygo",
+        "streams": 14259439,
+        "album": "Let Somebody Go (Kygo Remix)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02b2a533452b13732241fcdc5f"
+    },
+    "Viva La Vida - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 75831990,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Fix You - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 68276939,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Strawberry Swing": {
+        "credits": "Coldplay",
+        "streams": 106475000,
+        "album": "Viva La Vida or Death and All His Friends",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e"
+    },
+    "Yellow - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 24625765,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Clocks - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 17093240,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Charlie Brown - Live": {
+        "credits": "Coldplay",
+        "streams": 13279393,
+        "album": "Live 2012",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e020e49a9823be8f295caf1a574"
+    },
+    "Adventure of a Lifetime - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 18002241,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Paradise - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 21171927,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "God Put a Smile upon Your Face - Live": {
+        "credits": "Coldplay",
+        "streams": 7683221,
+        "album": "Live 2012",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e020e49a9823be8f295caf1a574"
+    },
+    "Magic - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 13911629,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "Something Just like This - Live in Buenos Aires": {
+        "credits": "Coldplay",
+        "streams": 15779847,
+        "album": "Live in Buenos Aires",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02fe5f1f4d742869a253036971"
+    },
+    "feelslikeimfallinginlove - Zerb x Coldplay": {
+        "credits": "Coldplay, Zerb",
+        "streams": 35087065,
+        "album": "feelslikeimfallinginlove (Zerb x Coldplay)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e021f1a00e407108f0a6b1f8fb9"
+    },
+    "WE PRAY - (TINI Version)": {
+        "credits": "Coldplay, Burna Boy, Elyanna, TINI, Little Simz",
+        "streams": 56014696,
+        "album": "WE PRAY (TINI Version)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e024ed52fb0ed6d8ed70a2fb383"
+    },
+    "The Karate Kid": {
+        "credits": "Coldplay",
+        "streams": 8563545,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "WE PRAY - (Elyanna Version)": {
+        "credits": "Coldplay, Burna Boy, Elyanna, TINI, Little Simz",
+        "streams": 16097056,
+        "album": "WE PRAY (Elyanna Version)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e8099f9a781ac4bcf3bf01fb"
+    },
+    "WE PRAY - Jasleen Royal Version": {
+        "credits": "Coldplay, Burna Boy, Elyanna, TINI, Jasleen Royal, Little Simz",
+        "streams": 7179844,
+        "album": "WE PRAY (Jasleen Royal Version)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02e520bfd6dad5ce900fd2d3dd"
+    },
+    "Ma Meilleure Ennemie ft. Coldplay": {
+        "credits": "Stromae, Pomme, Coldplay, Elyanna, Arcane, League of Legends",
+        "streams": 50149085,
+        "album": "Ma Meilleure Ennemie ft. Coldplay",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02183fc5de03ccc82fb1154774"
+    },
+    "In My Place - Live 2012": {
+        "credits": "Coldplay",
+        "streams": 13204080,
+        "album": "Live 2012",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e020e49a9823be8f295caf1a574"
+    },
+    "WE PRAY - TWICE Version": {
+        "credits": "Coldplay, TWICE, Burna Boy, Elyanna, TINI, Little Simz",
+        "streams": 22054562,
+        "album": "WE PRAY (TWICE Version)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02a764b8fbcfa7c83c81203e7a"
+    },
+    "MOON MUSiC": {
+        "credits": "Coldplay, Jon Hopkins",
+        "streams": 24119725,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "feelslikeimfallinginlove": {
+        "credits": "Coldplay",
+        "streams": 290312564,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "WE PRAY": {
+        "credits": "Coldplay, Little Simz, Burna Boy, Elyanna, TINI",
+        "streams": 219863914,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "JUPiTER": {
+        "credits": "Coldplay",
+        "streams": 18977816,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "GOOD FEELiNGS": {
+        "credits": "Coldplay, Ayra Starr",
+        "streams": 49987219,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "🌈": {
+        "credits": "Coldplay",
+        "streams": 13342810,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "iAAM": {
+        "credits": "Coldplay",
+        "streams": 16403410,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "AETERNA": {
+        "credits": "Coldplay",
+        "streams": 16186844,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "ALL MY LOVE": {
+        "credits": "Coldplay",
+        "streams": 97734662,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    },
+    "ONE WORLD": {
+        "credits": "Coldplay",
+        "streams": 10593571,
+        "album": "Moon Music (Full Moon Edition)",
+        "cover_image": "https://i.scdn.co/image/ab67616d00001e02d75f119409f50e08ce77c5f1"
+    }
+}
