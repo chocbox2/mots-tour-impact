@@ -1,7 +1,7 @@
-# spotify-worldwide-trends
+# Spotify Worldwide Trends: Music of the Spheres World Tour Edition
 
-Portfolio version of the Spotify Worldwide Trends: Music of the Spheres World Tour Edition article. 
-Originaly developed in March 2026.
+Portfolio version of the Spotify Worldwide Trends: Music of the Spheres World Tour Edition article. <br>
+Originaly developed in March 2026. <br>
 Data Sources:<br>
 https://charts.spotify.com/home (Spotify Charts for Spotify Data) <br>
 https://en.wikipedia.org/wiki/Music_of_the_Spheres_World_Tour (Tour Information) <br>
